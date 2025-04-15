@@ -643,7 +643,7 @@
 					"details": "Returns the number of decimals used to get its user representation. For example, if `decimals` equals `2`, a balance of `505` tokens should be displayed to a user as `5.05` (`505 / 10 ** 2`). Tokens usually opt for a value of 18, imitating the relationship between Ether and Wei. This is the default value returned by this function, unless it's overridden. NOTE: This information is only used for _display_ purposes: it in no way affects any of the arithmetic of the contract, including {IERC20-balanceOf} and {IERC20-transfer}."
 				},
 				"eip712Domain()": {
-					"details": "See {IERC-5267}."
+					"details": "returns the fields and values that describe the domain separator used by this contract for EIP-712 signature."
 				},
 				"name()": {
 					"details": "Returns the name of the token."
@@ -708,11 +708,11 @@
 			]
 		},
 		"@openzeppelin/contracts/token/ERC20/ERC20.sol": {
-			"keccak256": "0xbf61ab2ae1d575a17ea58fbb99ca232baddcc4e0eeea180e84cbc74b0c348b31",
+			"keccak256": "0x41f6b3b9e030561e7896dbef372b499cc8d418a80c3884a4d65a68f2fdc7493a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4e0968705bad99747a8e5288aa008678c2be2f471f919dce3925a3cc4f1dee09",
-				"dweb:/ipfs/QmbAFnCQfo4tw6ssfQSjhA5LzwHWNNryXN8bX7ty8jiqqn"
+				"bzz-raw://80b0992a11b2fd1f75ced2971696d07bbd1d19ce6761dd50d8b6d48aa435f42a",
+				"dweb:/ipfs/QmZDe5xd2gXHjVEjv9t8C1KQ68K5T8qFwdinwQgmP3rF3x"
 			]
 		},
 		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
@@ -772,11 +772,11 @@
 			]
 		},
 		"@openzeppelin/contracts/utils/ShortStrings.sol": {
-			"keccak256": "0x7d94fa0af099a2172eb01f9c8a8a443cbe7e0e43654841563e4e09968efdb549",
+			"keccak256": "0x1fcf8cceb1a67e6c8512267e780933c4a3f63ef44756e6c818fda79be51c8402",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://65e38fb76b6add407d4557753ae83dd1268e8261195dbe5c19a580d5ba6e4e9a",
-				"dweb:/ipfs/QmTkGSJtaQrqjcyWM4AgemeEmKgtDydKPPVRajsUJRQSrK"
+				"bzz-raw://617d7d57f6f9cd449068b4d23daf485676d083aae648e038d05eb3a13291de35",
+				"dweb:/ipfs/QmPADWPiGaSzZDFNpFEUx4ZPqhzPkYncBpHyTfAGcfsqzy"
 			]
 		},
 		"@openzeppelin/contracts/utils/StorageSlot.sol": {
@@ -788,11 +788,11 @@
 			]
 		},
 		"@openzeppelin/contracts/utils/Strings.sol": {
-			"keccak256": "0x725209b582291bb83058e3078624b53d15a133f7401c30295e7f3704181d2aed",
+			"keccak256": "0x81c274a60a7ae232ae3dc9ff3a4011b4849a853c13b0832cd3351bb1bb2f0dae",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0564ddb19c6d870e27b789d8f985283d815267ad7224883c2d5243c8bacc7dc0",
-				"dweb:/ipfs/QmeC953H4sj88ZRFdJNFdmpf7J9SksP1wK4jyMHLo66z49"
+				"bzz-raw://9da0c20dc74358a2a76330818f3bac9d1e2ce3371aec847b9cbf5d147fbae4f6",
+				"dweb:/ipfs/QmeczhmnFv1hbXKGLwbYXY6Rrytc9a5A2YaRi5QMMgjPnb"
 			]
 		},
 		"@openzeppelin/contracts/utils/cryptography/ECDSA.sol": {
@@ -804,27 +804,27 @@
 			]
 		},
 		"@openzeppelin/contracts/utils/cryptography/EIP712.sol": {
-			"keccak256": "0x10eb97d047f8d84fe263a02bb4a656ac6674f6679d74532cc37546289e073a9d",
+			"keccak256": "0x0c60057e7351874f086db8dc9291b7ada9ad62cb7725befd2991430d04a74572",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3e41287d40b0c46982f1083d40d32de2761f009c5c51627fe79a7feb0ab1cf5c",
-				"dweb:/ipfs/Qme7dbh6HX3ZvUJdbQAcVqXkmyXyfcLiUZRhhon3cU6K8p"
+				"bzz-raw://33cdfd1fc36410d45046f88ff9864350146b194736c32834baa38d99b843ffbe",
+				"dweb:/ipfs/QmdVmqgFKjgEBURy4KUwWDA6J1LEg1BKcHcXsx4nkeHAD2"
 			]
 		},
 		"@openzeppelin/contracts/utils/cryptography/MessageHashUtils.sol": {
-			"keccak256": "0x4515543bc4c78561f6bea83ecfdfc3dead55bd59858287d682045b11de1ae575",
+			"keccak256": "0x26670fef37d4adf55570ba78815eec5f31cb017e708f61886add4fc4da665631",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://60601f91440125727244fffd2ba84da7caafecaae0fd887c7ccfec678e02b61e",
-				"dweb:/ipfs/QmZnKPBtVDiQS9Dp8gZ4sa3ZeTrWVfqF7yuUd6Y8hwm1Rs"
+				"bzz-raw://b16d45febff462bafd8a5669f904796a835baf607df58a8461916d3bf4f08c59",
+				"dweb:/ipfs/QmU2eJFpjmT4vxeJWJyLeQb8Xht1kdB8Y6MKLDPFA9WPux"
 			]
 		},
 		"@openzeppelin/contracts/utils/math/Math.sol": {
-			"keccak256": "0xa00be322d7db5786750ce0ac7e2f5b633ac30a5ed5fa1ced1e74acfc19acecea",
+			"keccak256": "0x1225214420c83ebcca88f2ae2b50f053aaa7df7bd684c3e878d334627f2edfc6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6c84e822f87cbdc4082533b626667b6928715bb2b1e8e7eb96954cebb9e38c8d",
-				"dweb:/ipfs/QmZmy9dgxLTerBAQDuuHqbL6EpgRxddqgv5KmwpXYVbKz1"
+				"bzz-raw://6c5fab4970634f9ab9a620983dc1c8a30153981a0b1a521666e269d0a11399d3",
+				"dweb:/ipfs/QmVRnBC575MESGkEHndjujtR7qub2FzU9RWy9eKLp4hPZB"
 			]
 		},
 		"@openzeppelin/contracts/utils/math/SafeCast.sol": {
