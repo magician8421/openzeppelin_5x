@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "toCell",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MathUtils.sol": "Math"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MathUtils.sol": {
+			"keccak256": "0xc88972bcf7dc10d719d6d6400c4adf35b02e962bb34810e63884345a5a122c29",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4051cd0d11233f243bf564784ddfa00befde3fde65e350ad7948f8f5232cfbc6",
+				"dweb:/ipfs/QmeUmwG4cA9UsZoHzdE38UR83tXzDivETvKr5N83jTExmc"
+			]
+		}
+	},
+	"version": 1
+}

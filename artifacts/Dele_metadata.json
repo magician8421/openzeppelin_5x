@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "call",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Test2.sol": "Dele"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Test2.sol": {
+			"keccak256": "0x483af27cad1cea71bbb917d8fb6eab0f28171a51c35ef63201f358c540fbcd45",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://317355cb3fa654f9b996b05c17b2fc769c7c2e61bbc069b64ea1f54a7a39d2c4",
+				"dweb:/ipfs/QmQx2J3jNNyBX34ZhvUiqEmVoukSF6XReQLrSCxHEUQaZe"
+			]
+		}
+	},
+	"version": 1
+}
